@@ -10,11 +10,11 @@ Quickselect is usually done directly on the list, and besides finding the kth sm
 
 ## Complexity Analysis
 
-- Time complexity: $$O(n)$$ on average, $$O(n^2)$$ in the worst case
+- Time complexity: $O(n)$ on average, $O(n^2)$ in the worst case
 
-  $$T(n) = T(n/2) + O(n) = O(n) + O(n/2) + O(n/4) + ... + O(1) = O(n)$$
+  $T(n) = T(n/2) + O(n) = O(n) + O(n/2) + O(n/4) + ... + O(1) = O(n)$
 
-- Space complexity: $$O(n)$$
+- Space complexity: $O(n)$
 
 ## Python Implementation
 
