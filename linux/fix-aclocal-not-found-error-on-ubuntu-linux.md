@@ -1,4 +1,4 @@
-# **Fix "aclocal: not found" Error on Ubuntu/Linux**
+# Fix "aclocal: not found" Error on Ubuntu/Linux
 
 Encountered the frustrating "aclocal: not found" error while running a script on Ubuntu/Linux? No worries, here's a quick guide to get you back on track.
 
