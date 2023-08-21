@@ -10,7 +10,7 @@ When you see an error message like the one below while running a script, it mean
 ./autogen.sh: 11: aclocal: not found
 ```
 
-## **Step 1: Install Required Packages**
+## Step 1: Install Required Packages
 
 To fix this issue, you need to install the necessary packages: `autotools-dev` and `automake`. Open a terminal and run:
 
@@ -20,7 +20,7 @@ $ sudo apt-get install autotools-dev
 $ sudo apt-get install automake
 ```
 
-## **Step 2: Execute the Script Again**
+## Step 2: Execute the Script Again
 
 Once the packages are installed, run your script again. You should see it executing successfully this time:
 
@@ -33,7 +33,7 @@ $ ./autogen.sh
 ...
 ```
 
-### Conclusion
+## Conclusion
 
 The "aclocal: not found" error can be resolved by installing the `autotools-dev` and `automake` packages. These packages provide essential tools for the build process and ensure that your scripts run without a hitch.
 
